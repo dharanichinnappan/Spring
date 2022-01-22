@@ -35,7 +35,7 @@ public class FormController {
 	//editting jsp page attribute and adding to model  and displaing it in a jsp page using @RequestParam
 		@RequestMapping("editFormUsing@RequestParam")
 		public String editForm(@RequestParam ("studentName") String name,Model model) {
-			
+			//modedl is to pass values between conrroller and view
 			//String name=request.getParameter("studentName"); --> This is done behing the scene because of using @RequestParam
 			name=name.toUpperCase();
 			String result = "Hi" +" "+ name +"   ---> done by @RequestParam ";
