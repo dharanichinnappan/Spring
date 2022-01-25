@@ -39,7 +39,7 @@ public class CustomerController {
 	@RequestMapping("/processForm")
 	// Spring will store the result of validation in BindingResult
 	public String processForm(@Valid @ModelAttribute("OurCustomer") Customer theCustomer, BindingResult bindingResult ) {
-		
+		System.out.println("Binding result"+bindingResult); /* This helps to find the error type to add in messages.properties */
 		if(bindingResult.hasErrors()){
 			
 			return "customer-form";
