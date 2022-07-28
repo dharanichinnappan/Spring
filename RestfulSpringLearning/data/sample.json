@@ -1,0 +1,15 @@
+{
+"id":12,
+"firstName": "Dharani",
+"lastName": "Chinnappan",
+"active":true ,
+"address":{ 
+"street":"Engadiner",
+"city":"Munich",
+"state":"Bavaria",
+"zip":"81475",
+"country":"Germany"
+},
+"languages":["JAVA","C","C++","JAVASCRIPT"],
+"mobile":995220323
+}
